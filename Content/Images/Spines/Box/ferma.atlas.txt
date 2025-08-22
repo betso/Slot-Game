@@ -1,0 +1,244 @@
+
+ferma.png
+size: 1980,348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 626, 156
+  size: 183, 190
+  orig: 183, 190
+  offset: 0, 0
+  index: -1
+7ganateba
+  rotate: false
+  xy: 2, 97
+  size: 225, 249
+  orig: 225, 249
+  offset: 0, 0
+  index: -1
+7i
+  rotate: true
+  xy: 1894, 281
+  size: 65, 84
+  orig: 65, 84
+  offset: 0, 0
+  index: -1
+A
+  rotate: false
+  xy: 1433, 40
+  size: 103, 150
+  orig: 103, 150
+  offset: 0, 0
+  index: -1
+J
+  rotate: false
+  xy: 567, 2
+  size: 152, 140
+  orig: 152, 140
+  offset: 0, 0
+  index: -1
+K
+  rotate: true
+  xy: 2, 3
+  size: 92, 157
+  orig: 92, 157
+  offset: 0, 0
+  index: -1
+Q
+  rotate: false
+  xy: 1289, 33
+  size: 142, 155
+  orig: 142, 155
+  offset: 0, 0
+  index: -1
+kalata
+  rotate: true
+  xy: 1668, 64
+  size: 138, 134
+  orig: 138, 152
+  offset: 0, 10
+  index: -1
+l (1)
+  rotate: false
+  xy: 1647, 12
+  size: 37, 38
+  orig: 200, 187
+  offset: 94, 72
+  index: -1
+l (10)
+  rotate: true
+  xy: 1019, 4
+  size: 161, 139
+  orig: 200, 187
+  offset: 31, 22
+  index: -1
+l (11)
+  rotate: true
+  xy: 1627, 204
+  size: 142, 134
+  orig: 200, 187
+  offset: 31, 29
+  index: -1
+l (12)
+  rotate: true
+  xy: 1484, 197
+  size: 149, 141
+  orig: 200, 187
+  offset: 24, 29
+  index: -1
+l (13)
+  rotate: true
+  xy: 1341, 192
+  size: 154, 141
+  orig: 200, 187
+  offset: 19, 34
+  index: -1
+l (14)
+  rotate: false
+  xy: 721, 2
+  size: 144, 152
+  orig: 200, 187
+  offset: 31, 29
+  index: -1
+l (15)
+  rotate: false
+  xy: 867, 2
+  size: 150, 157
+  orig: 200, 187
+  offset: 28, 28
+  index: -1
+l (16)
+  rotate: true
+  xy: 1160, 15
+  size: 158, 127
+  orig: 200, 187
+  offset: 23, 27
+  index: -1
+l (17)
+  rotate: true
+  xy: 1065, 175
+  size: 171, 136
+  orig: 200, 187
+  offset: 15, 25
+  index: -1
+l (18)
+  rotate: true
+  xy: 921, 167
+  size: 179, 142
+  orig: 200, 187
+  offset: 9, 24
+  index: -1
+l (19)
+  rotate: true
+  xy: 811, 161
+  size: 185, 108
+  orig: 200, 187
+  offset: 2, 64
+  index: -1
+l (2)
+  rotate: true
+  xy: 1686, 3
+  size: 59, 54
+  orig: 200, 187
+  offset: 82, 60
+  index: -1
+l (20)
+  rotate: false
+  xy: 379, 9
+  size: 186, 116
+  orig: 200, 187
+  offset: 0, 61
+  index: -1
+l (21)
+  rotate: false
+  xy: 1538, 2
+  size: 107, 48
+  orig: 200, 187
+  offset: 76, 59
+  index: -1
+l (22)
+  rotate: false
+  xy: 246, 2
+  size: 1, 1
+  orig: 200, 187
+  offset: 73, 84
+  index: -1
+l (3)
+  rotate: false
+  xy: 1894, 213
+  size: 76, 66
+  orig: 200, 187
+  offset: 73, 54
+  index: -1
+l (4)
+  rotate: true
+  xy: 161, 3
+  size: 92, 83
+  orig: 200, 187
+  offset: 66, 45
+  index: -1
+l (5)
+  rotate: false
+  xy: 1804, 10
+  size: 103, 94
+  orig: 200, 187
+  offset: 61, 40
+  index: -1
+l (6)
+  rotate: false
+  xy: 1804, 106
+  size: 115, 105
+  orig: 200, 187
+  offset: 55, 35
+  index: -1
+l (7)
+  rotate: false
+  xy: 246, 5
+  size: 131, 120
+  orig: 200, 187
+  offset: 44, 30
+  index: -1
+l (8)
+  rotate: true
+  xy: 1538, 52
+  size: 143, 128
+  orig: 200, 187
+  offset: 37, 27
+  index: -1
+l (9)
+  rotate: true
+  xy: 1203, 190
+  size: 156, 136
+  orig: 200, 187
+  offset: 32, 24
+  index: -1
+moreyva
+  rotate: false
+  xy: 1763, 216
+  size: 129, 130
+  orig: 130, 132
+  offset: 0, 2
+  index: -1
+natela
+  rotate: false
+  xy: 423, 144
+  size: 201, 202
+  orig: 201, 202
+  offset: 0, 0
+  index: -1
+scatter
+  rotate: true
+  xy: 229, 127
+  size: 219, 95
+  orig: 221, 97
+  offset: 1, 1
+  index: -1
+scatter light
+  rotate: true
+  xy: 326, 127
+  size: 219, 95
+  orig: 221, 97
+  offset: 1, 1
+  index: -1

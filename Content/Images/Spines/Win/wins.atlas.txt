@@ -1,0 +1,531 @@
+
+wins.png
+size: 2017,1317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7ganateba
+  rotate: true
+  xy: 776, 2
+  size: 145, 144
+  orig: 158, 174
+  offset: 8, 24
+  index: -1
+FANTASTIC
+  rotate: false
+  xy: 912, 983
+  size: 378, 83
+  orig: 378, 83
+  offset: 0, 0
+  index: -1
+big
+  rotate: true
+  xy: 984, 112
+  size: 160, 97
+  orig: 160, 97
+  offset: 0, 0
+  index: -1
+charcho
+  rotate: false
+  xy: 1603, 256
+  size: 207, 84
+  orig: 207, 85
+  offset: 0, 1
+  index: -1
+countup
+  rotate: false
+  xy: 1083, 70
+  size: 181, 53
+  orig: 207, 85
+  offset: 13, 16
+  index: -1
+cxviri
+  rotate: false
+  xy: 1292, 983
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+didi rgoli
+  rotate: true
+  xy: 117, 159
+  size: 163, 328
+  orig: 186, 340
+  offset: 15, 5
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_0
+  rotate: false
+  xy: 1930, 80
+  size: 77, 107
+  orig: 350, 328
+  offset: 133, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_1
+  rotate: true
+  xy: 1267, 41
+  size: 89, 124
+  orig: 350, 328
+  offset: 128, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_10
+  rotate: true
+  xy: 776, 149
+  size: 123, 206
+  orig: 350, 328
+  offset: 134, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_11
+  rotate: false
+  xy: 447, 146
+  size: 130, 211
+  orig: 350, 328
+  offset: 132, 3
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_12
+  rotate: true
+  xy: 1785, 351
+  size: 178, 218
+  orig: 350, 328
+  offset: 86, 6
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_13
+  rotate: false
+  xy: 1603, 342
+  size: 180, 223
+  orig: 350, 328
+  offset: 84, 9
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_14
+  rotate: false
+  xy: 1185, 748
+  size: 184, 233
+  orig: 350, 328
+  offset: 82, 8
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_15
+  rotate: false
+  xy: 1601, 567
+  size: 193, 244
+  orig: 350, 328
+  offset: 80, 7
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_16
+  rotate: false
+  xy: 1173, 481
+  size: 208, 265
+  orig: 350, 328
+  offset: 77, 5
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_17
+  rotate: true
+  xy: 1129, 277
+  size: 202, 260
+  orig: 350, 328
+  offset: 75, 19
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_18
+  rotate: false
+  xy: 1371, 801
+  size: 208, 265
+  orig: 350, 328
+  offset: 73, 22
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_19
+  rotate: true
+  xy: 901, 539
+  size: 213, 270
+  orig: 350, 328
+  offset: 72, 25
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_2
+  rotate: true
+  xy: 1747, 7
+  size: 89, 132
+  orig: 350, 328
+  offset: 128, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_20
+  rotate: false
+  xy: 360, 359
+  size: 218, 274
+  orig: 350, 328
+  offset: 70, 28
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_21
+  rotate: true
+  xy: 901, 754
+  size: 227, 282
+  orig: 350, 328
+  offset: 66, 31
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_22
+  rotate: true
+  xy: 613, 830
+  size: 233, 286
+  orig: 350, 328
+  offset: 63, 32
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_23
+  rotate: true
+  xy: 1507, 1075
+  size: 240, 291
+  orig: 350, 328
+  offset: 58, 31
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_24
+  rotate: true
+  xy: 912, 1068
+  size: 247, 299
+  orig: 350, 328
+  offset: 54, 29
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_25
+  rotate: false
+  xy: 358, 1013
+  size: 253, 302
+  orig: 350, 328
+  offset: 50, 26
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_26
+  rotate: true
+  xy: 858, 322
+  size: 215, 269
+  orig: 350, 328
+  offset: 84, 1
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_27
+  rotate: true
+  xy: 635, 612
+  size: 216, 264
+  orig: 350, 328
+  offset: 85, 6
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_28
+  rotate: false
+  xy: 1581, 813
+  size: 217, 260
+  orig: 350, 328
+  offset: 88, 11
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_29
+  rotate: false
+  xy: 1383, 544
+  size: 216, 255
+  orig: 350, 328
+  offset: 92, 17
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_3
+  rotate: true
+  xy: 1612, 49
+  size: 89, 133
+  orig: 350, 328
+  offset: 130, 7
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_30
+  rotate: false
+  xy: 1391, 292
+  size: 210, 250
+  orig: 350, 328
+  offset: 102, 22
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_31
+  rotate: true
+  xy: 117, 324
+  size: 287, 241
+  orig: 350, 328
+  offset: 33, 33
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_32
+  rotate: false
+  xy: 1213, 1068
+  size: 292, 247
+  orig: 350, 328
+  offset: 32, 28
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_33
+  rotate: false
+  xy: 613, 1065
+  size: 297, 250
+  orig: 350, 328
+  offset: 32, 26
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_34
+  rotate: false
+  xy: 1796, 531
+  size: 213, 245
+  orig: 350, 328
+  offset: 32, 27
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_35
+  rotate: true
+  xy: 358, 797
+  size: 214, 253
+  orig: 350, 328
+  offset: 32, 26
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_36
+  rotate: false
+  xy: 1800, 778
+  size: 214, 264
+  orig: 350, 328
+  offset: 32, 30
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_37
+  rotate: false
+  xy: 1800, 1044
+  size: 215, 271
+  orig: 350, 328
+  offset: 32, 30
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_38
+  rotate: true
+  xy: 580, 396
+  size: 214, 276
+  orig: 350, 328
+  offset: 33, 32
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_39
+  rotate: true
+  xy: 351, 635
+  size: 160, 282
+  orig: 350, 328
+  offset: 33, 31
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_4
+  rotate: true
+  xy: 922, 9
+  size: 101, 148
+  orig: 350, 328
+  offset: 125, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_40
+  rotate: true
+  xy: 518, 2
+  size: 44, 208
+  orig: 350, 328
+  offset: 150, 30
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_41
+  rotate: false
+  xy: 1368, 1065
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_42
+  rotate: false
+  xy: 1368, 1065
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_5
+  rotate: true
+  xy: 1612, 140
+  size: 114, 153
+  orig: 350, 328
+  offset: 118, 3
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_6
+  rotate: true
+  xy: 2, 2
+  size: 139, 171
+  orig: 350, 328
+  offset: 105, 4
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_7
+  rotate: true
+  xy: 1083, 125
+  size: 150, 182
+  orig: 350, 328
+  offset: 98, 2
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_8
+  rotate: true
+  xy: 1812, 189
+  size: 160, 185
+  orig: 350, 328
+  offset: 90, 7
+  index: -1
+ferma particles/particlebi levanistvis ro sloti ar gaafuchos_9
+  rotate: true
+  xy: 175, 17
+  size: 140, 200
+  orig: 350, 328
+  offset: 113, 0
+  index: -1
+fonuri naTeba
+  rotate: false
+  xy: 2, 961
+  size: 354, 354
+  orig: 368, 368
+  offset: 7, 7
+  index: -1
+gamuqeba
+  rotate: false
+  xy: 1292, 1001
+  size: 74, 65
+  orig: 74, 65
+  offset: 0, 0
+  index: -1
+gvirila
+  rotate: true
+  xy: 613, 802
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+joxi
+  rotate: false
+  xy: 1929, 30
+  size: 73, 48
+  orig: 73, 48
+  offset: 0, 0
+  index: -1
+kac copy
+  rotate: true
+  xy: 1204, 20
+  size: 48, 56
+  orig: 224, 100
+  offset: 0, 0
+  index: -1
+kac copy 2
+  rotate: false
+  xy: 1881, 6
+  size: 46, 90
+  orig: 48, 90
+  offset: 0, 0
+  index: -1
+kac copy 3
+  rotate: false
+  xy: 1267, 132
+  size: 128, 143
+  orig: 128, 143
+  offset: 0, 0
+  index: -1
+kac copy 4
+  rotate: false
+  xy: 1510, 44
+  size: 89, 83
+  orig: 89, 83
+  offset: 0, 0
+  index: -1
+marcxena tvali
+  rotate: false
+  xy: 858, 595
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+marjvena Tvali
+  rotate: false
+  xy: 580, 616
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+mcenareebis ficari
+  rotate: false
+  xy: 1393, 63
+  size: 115, 64
+  orig: 183, 91
+  offset: 34, 14
+  index: -1
+nice
+  rotate: false
+  xy: 1397, 205
+  size: 195, 85
+  orig: 195, 85
+  offset: 0, 0
+  index: -1
+optical rgoli
+  rotate: false
+  xy: 377, 2
+  size: 139, 139
+  orig: 141, 141
+  offset: 1, 1
+  index: -1
+rainbow
+  rotate: true
+  xy: 518, 48
+  size: 93, 247
+  orig: 105, 258
+  offset: 11, 5
+  index: -1
+shine
+  rotate: false
+  xy: 2, 613
+  size: 347, 346
+  orig: 404, 352
+  offset: 30, 5
+  index: -1
+super
+  rotate: false
+  xy: 580, 304
+  size: 266, 90
+  orig: 277, 102
+  offset: 0, 12
+  index: -1
+tachka
+  rotate: false
+  xy: 1767, 98
+  size: 161, 89
+  orig: 183, 91
+  offset: 5, 2
+  index: -1
+tivebi
+  rotate: true
+  xy: 2, 172
+  size: 439, 113
+  orig: 439, 123
+  offset: 0, 6
+  index: -1
+ulvashi
+  rotate: false
+  xy: 377, 143
+  size: 37, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+urika
+  rotate: false
+  xy: 579, 143
+  size: 195, 159
+  orig: 195, 159
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 1072, 16
+  size: 130, 52
+  orig: 130, 52
+  offset: 0, 0
+  index: -1
+xorbali1
+  rotate: false
+  xy: 848, 274
+  size: 228, 46
+  orig: 228, 46
+  offset: 0, 0
+  index: -1
+xorbali2
+  rotate: false
+  xy: 1397, 129
+  size: 213, 74
+  orig: 213, 74
+  offset: 0, 0
+  index: -1
+yvavili qveda
+  rotate: false
+  xy: 776, 274
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+zeda yvavili
+  rotate: false
+  xy: 1767, 218
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
