@@ -42,18 +42,18 @@ class ReelsEngine
         this.spinningCols.fill(true);
     }
 
-    async stopWithResult(result, { perReelDelay = 120, stopTime = 280 } = {})
+    async stopWithResult(result) //,{ perReelDelay = 120, stopTime = 280 } = {}
     {
         for (let c = 0; c < REELS_COLS; c++)
         {
-            await wait(perReelDelay);
-            await this.stopOneColumn(c, result[c]);
+            //await wait(perReelDelay);
+            await this.stopOneColumn(c, result[c], 25);
         }
-        await wait(stopTime);
+        //await wait(stopTime);
         this.spinning = false;
     }
 
-    async stopOneColumn(colIndex, colResult)
+    async stopOneColumn(colIndex, colResult, reelDelay)
     {
         this.spinningCols[colIndex] = false;
 
@@ -81,7 +81,7 @@ class ReelsEngine
                 col.addChild(g, t);
             }
 
-            await wait(80);
+            await wait(reelDelay);
         }
     }
 

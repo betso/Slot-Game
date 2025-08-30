@@ -9,7 +9,7 @@ class Wheel
     this.root.x = 634;
     this.root.y = 378;
 
-    this.sprite = PIXI.Sprite.from("./src/images/wheel.png");
+    this.sprite = PIXI.Sprite.from("./Content/Images/wheel.png");
     this.sprite.anchor.set(0.5);
 
     const targetSize = 650;

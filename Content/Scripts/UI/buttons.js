@@ -1,7 +1,7 @@
 async function createSpinButton()
 {
     const innerRect = FRAME_INNER_RECT;
-    const url = "./src/images/spin.png";
+    const url = "./Content/Images/spin.png";
   
     try
     {

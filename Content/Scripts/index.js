@@ -1,6 +1,11 @@
 if (!window.PIXI) throw new Error("PIXI not loaded. Include pixi.js before index.js");
 
 // --------------- properties ---------------
+const BETS = [0.5, 1, 5, 10, 20, 30, 40, 50, 100, 200];
+let activeBetIndex = 1;
+let balance = 0, win = 0;
+let balanceText, betText, winText, spinBtnRef;
+
 let backgroundHeight;
 let wheel;
 let balanceFetched = false;
@@ -30,17 +35,17 @@ const SYMBOL_WHITELIST = [
 ];
 
 const SYMBOL_PATHS = {
-  "spin-7":  "./src/images/spin-7.png",
-  "spin-a":  "./src/images/spin-a.png",
-  "spin-b":  "./src/images/spin-b.png",
-  "spin-c":  "./src/images/spin-c.png",
-  "spin-ch": "./src/images/spin-ch.png",
-  "spin-f":  "./src/images/spin-f.png",
-  "spin-j":  "./src/images/spin-j.png",
-  "spin-k":  "./src/images/spin-k.png",
-  "spin-p":  "./src/images/spin-p.png",
-  "spin-s":  "./src/images/spin-s.png",
-  "spin-w":  "./src/images/spin-w.png"
+  "spin-7":  "./Content/Images/spin-7.png",
+  "spin-a":  "./Content/Images/spin-a.png",
+  "spin-b":  "./Content/Images/spin-b.png",
+  "spin-c":  "./Content/Images/spin-c.png",
+  "spin-ch": "./Content/Images/spin-ch.png",
+  "spin-f":  "./Content/Images/spin-f.png",
+  "spin-j":  "./Content/Images/spin-j.png",
+  "spin-k":  "./Content/Images/spin-k.png",
+  "spin-p":  "./Content/Images/spin-p.png",
+  "spin-s":  "./Content/Images/spin-s.png",
+  "spin-w":  "./Content/Images/spin-w.png"
 };
 
 let symbolTextures = {};
@@ -70,7 +75,6 @@ style.textContent = `#game-container canvas{display:block}`;
 document.head.appendChild(style);
 // --------------- app ---------------
 
-
 function resizeGame()
 {
     const baseW = 1280, baseH = 720;
@@ -91,67 +95,6 @@ function resizeGame()
 window.addEventListener("resize", resizeGame);
 resizeGame();
 
-// --------------- background ---------------
-async function createBackground()
-{
-    const url = "./src/images/background.png";
-
-    try
-    {
-        const tex = await loadTexture(url);
-        const spr = new PIXI.Sprite(tex);
-        const scale = Math.max(app.screen.width/tex.width, app.screen.height/tex.height);
-        spr.width = tex.width*scale;
-        spr.height = tex.height*scale;
-        
-        backgroundHeight = tex.height*scale;
-
-        spr.x = (app.screen.width - spr.width)/2;
-        spr.y = (app.screen.height - spr.height)/2;
-        spr.zIndex = 0;
-        app.stage.addChild(spr);
-    }
-    catch(e)
-    {
-        console.warn("[BG] Failed:", e);
-    }
-}
-
-// --------------- foreground frame (above reels) ---------------
-async function addReelsFrame()
-{
-    const innerRect = FRAME_INNER_RECT;
-    const url = "./src/images/board.png";
-    const totalW = REELS_COLS * CELL + (REELS_COLS - 1) * REEL_GAP;
-    const totalH = REELS_ROWS * CELL;
-  
-    try
-    {
-        const tex = await loadTexture(url);
-        const spr = new PIXI.Sprite(tex);
-
-        const sx = totalW / innerRect.width / 1.8;
-        const sy = totalH / innerRect.height / 1.8;
-        const s  = Math.min(sx, sy);
-        spr.scale.set(s);
-
-        spr.x = reels.root.x - innerRect.x * s -70;
-        spr.y = reels.root.y - innerRect.y * s - 230;
-
-        spr.zIndex = 50;
-        app.stage.addChild(spr);
-    } catch (e) {
-        console.warn("[FRAME] Failed:", e);
-    }
-}
-
-// --------------- HUD ---------------
-const BETS = [0.5, 1, 5, 10, 20, 30, 40, 50, 100, 200];
-let activeBetIndex = 1;
-let balance = 0, win = 0;
-let balanceText, betText, winText, spinBtnRef;
-let isTurbo = false;
-
 function createHUD()
 {
     const st = new PIXI.TextStyle({ fontFamily:"Arial", fontSize: 32, fill: 0xffffff });
@@ -160,6 +103,7 @@ function createHUD()
     winText     = new PIXI.Text("Win: 0", st);     winText.x=20;     winText.y=100;
     app.stage.addChild(balanceText, betText, winText);
 }
+
 function updateHUD()
 {
     balanceText.text = "Balance: " + Number(balance||0).toFixed(2);
@@ -248,7 +192,6 @@ function placeSpriteInCell(spr, cellX, cellY)
     spr.scale.set(s);
 }
 
-// --------------- flow ---------------
 async function init()
 {
     await createBackground();
@@ -266,7 +209,14 @@ async function init()
     reels = new ReelsEngine(app);
     await addReelsFrame();
     wheel = new Wheel(app);
+
+    const bet = BETS[activeBetIndex];
+    const result = await GetBoard(bet);
+    const reelsRaw  = result.Baraban ?? result.reels;
+    const reelsData = normalizeReelsData(reelsRaw);
+    await reels.stopWithResult(reelsData);
 }
+
 init();
 
 async function onSpinClick()
@@ -276,23 +226,19 @@ async function onSpinClick()
 
     const bet = BETS[activeBetIndex];
 
-    const speedFactor = isTurbo ? 2.2 : 1.4;
+    const speedFactor = 1.4;
     reels.startSpin(speedFactor);
     wheel.start(speedFactor);
 
     const result = await GetBoard(bet);
 
     await wheel.stopOn(
-        Number(result.Multiplier ?? result.multiplier ?? 1),
-        { duration: isTurbo ? 300 : 500 }
+        Number(result.Multiplier ?? result.multiplier ?? 1), { duration: 500 }
     );
 
     const reelsRaw  = result.Baraban ?? result.reels;
     const reelsData = normalizeReelsData(reelsRaw);
-    await reels.stopWithResult(reelsData, {
-        perReelDelay: isTurbo ? 5 : 10,
-        stopTime:     isTurbo ? 50 : 100
-    });
+    await reels.stopWithResult(reelsData);
 
     balance = Number(result.Balance ?? result.balance ?? balance);
     win     = Number(result.Win ?? result.win ?? 0);
