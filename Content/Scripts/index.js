@@ -187,7 +187,7 @@ async function init()
     await createHUD();
     await updateHUD();
     createSpinButton();
-    //createBetButtons();
+    createBetButton();
 
     reels = new ReelsEngine(app);
     await addReelsFrame();
