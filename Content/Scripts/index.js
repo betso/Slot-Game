@@ -4,7 +4,6 @@ if (!window.PIXI) throw new Error("PIXI not loaded. Include pixi.js before index
 const BETS = [0.5, 1, 5, 10, 20, 30, 40, 50, 100, 200];
 let activeBetIndex = 1;
 let balance = 0, win = 0;
-let balanceText, betText, winText, spinBtnRef;
 
 let backgroundHeight;
 let wheel;
@@ -94,22 +93,6 @@ function resizeGame()
 }
 window.addEventListener("resize", resizeGame);
 resizeGame();
-
-function createHUD()
-{
-    const st = new PIXI.TextStyle({ fontFamily:"Arial", fontSize: 32, fill: 0xffffff });
-    balanceText = new PIXI.Text("Balance: 0", st); balanceText.x=20; balanceText.y=20;
-    betText     = new PIXI.Text("Bet: 0", st);     betText.x=20;     betText.y=60;
-    winText     = new PIXI.Text("Win: 0", st);     winText.x=20;     winText.y=100;
-    app.stage.addChild(balanceText, betText, winText);
-}
-
-function updateHUD()
-{
-    balanceText.text = "Balance: " + Number(balance||0).toFixed(2);
-    betText.text     = "Bet: "     + Number(BETS[activeBetIndex]||1).toFixed(2);
-    winText.text     = "Win: "     + Number(win||0).toFixed(2);
-}
 
 function pickKeyList()
 {
@@ -201,10 +184,10 @@ async function init()
     balance = Number(info.Balance ?? info.balance ?? 0);
     win     = Number(info.Win ?? info.win ?? 0);
 
-    createHUD();
-    updateHUD();
+    await createHUD();
+    await updateHUD();
     createSpinButton();
-    createBetButtons();
+    //createBetButtons();
 
     reels = new ReelsEngine(app);
     await addReelsFrame();
@@ -241,8 +224,8 @@ async function onSpinClick()
     await reels.stopWithResult(reelsData);
 
     balance = Number(result.Balance ?? result.balance ?? balance);
-    win     = Number(result.Win ?? result.win ?? 0);
-    updateHUD();
+    win     = Number(result.UserWin ?? result.win ?? 0);
+    await updateHUD();
 
     if (spinBtnRef) spinBtnRef.interactive = true;
 }
